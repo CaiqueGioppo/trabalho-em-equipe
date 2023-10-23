@@ -4,8 +4,11 @@ body{
    margin-top: 2%;
    margin-left: 5%;
    margin-right: 5%;
-   background: linear-gradient(#dd8bd7b3, #70b4cd);
-   color: white; text-shadow;
+   background: rgb(252,158,69);
+   background: linear-gradient(90deg, rgba(252,158,69,0.9752275910364145) 23%, rgba(253,29,29,1) 47%, rgba(164,29,253,1) 75%);
+   color: white;   
+   text-shadow: 0.1em 0.1em 0.2em black;
+
 }
 
 main{
@@ -18,17 +21,18 @@ p{
    margin: 2%;
    padding: 3% 2%;
    border-radius: 20px;
-   background-color: rgba(255, 255, 255, 0.70);
+   background-color: rgba(255, 255, 255, 0.781);
+   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 button{
-   font-size: 20px;
+   font-size: 30px;
    font-family: 'Yeseva One', cursive;
    margin: 1%;
    padding: 1.5% 5%;
    border-radius: 15px;
    border: 0px;
-   color: white; text-shadow;
+   color: white; 
    width: 19%;
 }
 
@@ -43,14 +47,16 @@ h1{
 }
 
 #cadastrar{
-   background-color: rgba(37, 148, 212, 0.70);
+   background-color: rgba(255, 255, 255, 0.685);
    padding: 50 100 50 100;
+   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 #entrar{
-   background-color: rgba(111, 193, 241, 0.7);
+   background-color: rgba(255, 255, 255, 0.685);
    margin-bottom: 19%;
    padding: 50 100 50 100;
+   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .login{
