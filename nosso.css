@@ -16,9 +16,13 @@ main{
    margin-top: auto;  
 }
 
+#cabeçalho{
+   font-size: 7em;
+}
+
 p{
-   font-size: 80px;
    margin: 2%;
+   margin-top: 6%;
    padding: 3% 2%;
    border-radius: 20px;
    background-color: rgba(255, 255, 255, 0.781);
@@ -26,7 +30,7 @@ p{
 }
 
 button{
-   font-size: 30px;
+   font-size: 35px;
    font-family: 'Yeseva One', cursive;
    margin: 1%;
    padding: 1.5% 5%;
@@ -43,7 +47,8 @@ button:hover{
 }
 
 h1{
-   font-size: 3em;
+   font-size: 4em;
+   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 #cadastrar{
@@ -61,4 +66,9 @@ h1{
 
 .login{
    margin-top: 5%;   
+}
+
+a{
+   text-decoration: none;
+   color: white;
 }
