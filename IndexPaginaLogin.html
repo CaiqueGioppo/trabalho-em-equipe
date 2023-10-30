@@ -37,7 +37,11 @@ function VerificacaoDeLogin() (
     const EmailRegistrado = document.getElementById("E-mail").value;
     const SenhaRegistrada = document.getElementById("Senha").value;
 
-    if (Nome == NomeRegistrado.Nome && Senha == SenhaRegistrada.Senha && == Email == EmailRegistrado  )
+    if (Nome == NomeRegistrado.Nome && Senha == SenhaRegistrada.Senha && == Email == EmailRegistrado.Email) {
+        document.getElementById("menssagem").innerHTML = "Login bem-sucedido!";
+    } else {
+        document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
+    }
 )
 
 
