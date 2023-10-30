@@ -17,7 +17,7 @@
         <label for="senha"></label>
         <input type="password" id="senha" name="senha" value="Senha" required><br><br>
         
-        <input type="submit" value="Cadastrar">
+        <input type="submit" value="<a href="pergunta01.html">Cadastrar</a>" 
     </form>
     
     <a href="outra_pagina.html">Ir para Outra Página</a>
@@ -37,7 +37,7 @@ function VerificacaoDeLogin() (
     const EmailRegistrado = document.getElementById("email").value;
     const SenhaRegistrada = document.getElementById("senha").value;
 
-    if (nome == NomeRegistrado.nome && senha == SenhaRegistrada.senha && == Email == EmailRegistrado.email) {
+    if (nome == NomeRegistrado.nome && senha == SenhaRegistrada.senha && == email == EmailRegistrado.email) {
         document.getElementById("menssagem").innerHTML = "Login bem-sucedido!";
     } else {
         document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
