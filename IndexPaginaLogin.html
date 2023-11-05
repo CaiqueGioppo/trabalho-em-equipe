@@ -33,17 +33,17 @@
 
 
         function VerificacaoDeLogin() {
-            const Nome = document.getElementById("nome").value;
-            const Email = document.getElementById("email").value;
-            const Senha = document.getElementById("senha").value;
+            Nome = document.getElementById("nome").value;
+            Email = document.getElementById("email").value;
+            Senha = document.getElementById("senha").value;
 
             if (Nome === NomeRegistrado && Senha === SenhaRegistrada && Email === EmailRegistrado) {
                 window.location.href = "pergunta01.html";
-                document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";
+                /*document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";*/
                 return true;
             } else {
-                document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
                 return false;
+                document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
             }
 
         }
