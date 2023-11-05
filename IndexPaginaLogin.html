@@ -27,9 +27,14 @@
 
 
     <script>
-        const NomeRegistrado = "Nome de usuario";
+        const Login = {
+            nome: "Nome de usuario",
+            email: "emailregistrado@gmail.com",
+            senha: "teste"
+        };
+        /*const NomeRegistrado = "Nome de usuario";
         const EmailRegistrado = "emailregistrado@gmail.com";
-        const SenhaRegistrada = "teste";
+        const SenhaRegistrada = "teste";*/
 
 
         function VerificacaoDeLogin() {
@@ -37,7 +42,7 @@
             Email = document.getElementById("email").value;
             Senha = document.getElementById("senha").value;
 
-            if (Nome === NomeRegistrado && Senha === SenhaRegistrada && Email === EmailRegistrado) {
+            if (Nome === Login &&  Email === Login && Senha === Login) {
                 window.location.href = "pergunta01.html";
                 /*document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";*/
                 return true;
