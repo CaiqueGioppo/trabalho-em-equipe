@@ -17,24 +17,28 @@
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required><br><br>
         
-        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Fazer login">
     </form>
     
-    <a href="pergunta01.html">Ir para Outra Página</a>
+    <!--<a href="pergunta01.html">Ir para Outra Página</a>-->
+    <div id="menssagem"></div>
+    
     
     <script>
         const NomeRegistrado = "Nome de usuario";
         const EmailRegistrado = "emailregistrado@gmail.com";
         const SenhaRegistrada = "teste";
+        
 
         function VerificacaoDeLogin() {
-            const NomeRegistrado = document.getElementById("nome").value;
-            const EmailRegistrado = document.getElementById("email").value;
-            const SenhaRegistrada = document.getElementById("senha").value;
+            const Nome = document.getElementById("nome").value;
+            const Email = document.getElementById("email").value;
+            const Senha = document.getElementById("senha").value;
 
-            if (nome === NomeRegistrado && senha === SenhaRegistrada && email === EmailRegistrado) {
+            if (Nome === NomeRegistrado && Senha === SenhaRegistrada && Email === EmailRegistrado) {
                 window.location.href ="pergunta01.html"
                 document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";
+                
             } else {
                 document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
             }
