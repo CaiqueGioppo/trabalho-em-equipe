@@ -40,8 +40,10 @@
             if (Nome === NomeRegistrado && Senha === SenhaRegistrada && Email === EmailRegistrado) {
                 window.location.href = "pergunta01.html";
                 document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";
+                return true;
             } else {
                 document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
+                return false
             }
 
         }
