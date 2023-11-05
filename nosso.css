@@ -1,3 +1,9 @@
+/*<<<<<<< HEAD
+body {
+    
+    
+}
+=======*/
 body{
    text-align: center;
    font-family: 'Yeseva One', cursive;
@@ -8,7 +14,7 @@ body{
    background: linear-gradient(90deg, rgba(252,158,69,0.9752275910364145) 23%, rgba(253,29,29,1) 47%, rgba(164,29,253,1) 75%);
    color: white;   
    text-shadow: 0.1em 0.1em 0.2em black;
-
+   background-color: #545454;
 }
 
 main{
@@ -72,3 +78,4 @@ a{
    text-decoration: none;
    color: white;
 }
+/*>>>>>>> 5d370030bd542649c53dd4e80c9bf6770bc39edb*/

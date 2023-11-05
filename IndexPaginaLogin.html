@@ -33,6 +33,7 @@
             const SenhaRegistrada = document.getElementById("senha").value;
 
             if (nome === NomeRegistrado && senha === SenhaRegistrada && email === EmailRegistrado) {
+                window.location.href ="pergunta01.html"
                 document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";
             } else {
                 document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
