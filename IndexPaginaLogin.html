@@ -24,6 +24,7 @@
 
    
     <div id="mensagem"></div>
+    <div id="mensagem1"></div>
 
 
     <script>
@@ -39,7 +40,7 @@
 
             if (Nome === NomeRegistrado && Senha === SenhaRegistrada && Email === EmailRegistrado) {
                 window.location.href = "pergunta01.html";
-                document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";
+                document.getElementById("mensagem1").innerHTML = "Login bem-sucedido!";
                 return false;
             } else {
                 document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
