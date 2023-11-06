@@ -37,11 +37,11 @@ body{
    text-align: justify;
  }
 
- #errada{
+ #errada:active{
    background-color: red;
  }
 
- #correta{
+ #correta:active{
    background-color: greenyellow;
  }
 
@@ -53,7 +53,7 @@ body{
     border-radius: 15px;
     border: 0px;
     color: white; 
-    width: 20%;
+    width: auto;
     height: auto;
     text-shadow: 0.1em 0.1em 0.2em black;
  }
