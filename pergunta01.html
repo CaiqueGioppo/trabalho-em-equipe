@@ -21,29 +21,20 @@
             <button id="errada">Sérgio</button>
             <button id="errada">Matias</button>
         </div>
-        <div id="mensagem"></div>
     </main>
     <script>
         function VerificacaoDeResposta() {
             window.location.href = "pergunta02.html";
         }
-        function RepostaErrada() {
-            window.location.href = "pergunta01.html";
-        }
         document.getElementById("correta").addEventListener("click", function () {
             if (this.id === "correta") {
                 VerificacaoDeResposta();
             } else {
-            document.getElementById("incorreta").addEventListener("click", RepostaErrada())}
-                 
-                    /*(this.id === "incorreta") {
-                        RepostaErrada();
-                    }*/
-                })
-            window.location.href = "pergunta01.html"
-            document.getElementById("mensagem").innerHTML = ("Alternativa incorreta, tente  novamente")
-        
-        
+                window.location.href = "TelaDeErro01";
+            }
+
+        })
+
     </script>
 </body>
 
