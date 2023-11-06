@@ -21,6 +21,7 @@
             <button id="errada">Sérgio</button>
             <button id="errada">Matias</button>
         </div>
+        <div id="mensagem"></div>
     </main>
     <script>
         function VerificacaoDeResposta() {
@@ -28,6 +29,9 @@
         }
         document.getElementById("correta").addEventListener("click", function() {
             if(this.id === "correta") {VerificacaoDeResposta();
+            } else {
+                window.location.href = "pergunta01.html"
+                document.getElementById("mensagem").innerHTML = ("Alternativa incorreta, tente  novamente")
             }
         });
     </script>
