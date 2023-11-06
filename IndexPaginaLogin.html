@@ -22,48 +22,28 @@
         <input type="submit" value="Fazer login">
     </form>
 
-
+   
     <div id="mensagem"></div>
 
 
     <script>
-        const usuarioRegistrado = {
-            Nome: "Nome de usuario",
-            Email: "emailregistrado@gmail.com",
-            Senha: "teste"
-        };
+        const NomeRegistrado = "Nome de usuario";
+        const EmailRegistrado = "emailregistrado@gmail.com";
+        const SenhaRegistrada = "teste";
+
 
         function VerificacaoDeLogin() {
-            const nomeInserido = document.getElementById("nome").value;
-            const emailInserido = document.getElementById("email").value;
-            const senhaInserida = document.getElementById("senha").value;
+            const Nome = document.getElementById("nome").value;
+            const Email = document.getElementById("email").value;
+            const Senha = document.getElementById("senha").value;
 
-            if (nomeInserido === usuarioRegistrado.Nome && senhaInserida === usuarioRegistrado.Senha && emailInserido === usuarioRegistrado.Email) {
+            if (Nome === NomeRegistrado && Senha === SenhaRegistrada && Email === EmailRegistrado) {
+                window.location.href = "pergunta01.html";
                 document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";
-                window.location.href = "pergunta01.html"; // Redireciona para a próxima página
-                return false; // Impede o env
-                /* const Login = {
-                     nome: "Nome de usuario",
-                     email: "emailregistrado@gmail.com",
-                     senha: "teste"
-                 };
-                 /*const NomeRegistrado = "Nome de usuario";
-                 const EmailRegistrado = "emailregistrado@gmail.com";
-                 const SenhaRegistrada = "teste";*/
-
-
-                /* function VerificacaoDeLogin() {
-                     Nome = document.getElementById("nome").value;
-                     Email = document.getElementById("email").value;
-                     Senha = document.getElementById("senha").value;
-         
-                     if (Nome === Login.nome &&  Email === Login.email && Senha === Login.senha) {
-                         window.location.href ="pergunta01.html";
-                         /*document.getElementById("mensagem").innerHTML = "Login bem-sucedido!";*/
-                return true;
-            } else {
                 return false;
+            } else {
                 document.getElementById("mensagem").innerHTML = "Credenciais inseridas incorretamente. Insira as corretamente e tente novamente";
+                return true;
             }
 
         }
