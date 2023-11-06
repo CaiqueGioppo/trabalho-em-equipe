@@ -19,7 +19,7 @@ body{
  main{
     margin-top: 5%;
     margin-top: auto;
-    display: flex;
+   
     justify-content: center;
 
  }
@@ -57,7 +57,7 @@ body{
     border-radius: 15px;
     border: 0px;
     color: white; 
-    width: 20px;
+    width: 20%;
     text-shadow: 0.1em 0.1em 0.2em black;
  }
  
