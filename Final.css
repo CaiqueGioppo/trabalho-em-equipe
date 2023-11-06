@@ -30,46 +30,6 @@ body{
     background-color: rgba(255, 255, 255, 0.781);
     text-shadow: 0.1em 0.1em 0.2em black;
  }
- 
- .alternativas{
-   display: block;
-   font-size: 3em;
-   text-align: justify;
- }
-
- #errada:active{
-    background-color: red;
- }
-
- #correta:active{
-    background-color: greenyellow;
- }
-
- button{
-    font-size: 1em;
-    font-family: 'Yeseva One', cursive;
-    margin: 2%;
-    padding: 1.5% 2.3%;
-    border-radius: 15px;
-    border: 0px;
-    color: white; 
-    width: auto;
-    height: auto;
-    text-shadow: 0.1em 0.1em 0.2em black;
- }
- 
- button:hover{
-    transform: scale(1.04);
-    transition: 60ms all;
-    cursor: pointer;
- }
- 
- button:active{
-   color: rgb(227, 255, 184);
-   background-color: greenyellow;
-   animation-duration: 2s;
-   animation-delay: 2ms;
- }
 
  a{
     text-decoration: none;
@@ -77,7 +37,7 @@ body{
  }
 
  img {
-    display: block;
+    display: flex;
     justify-content: center;
     width: 100px;
     height: 100px;
