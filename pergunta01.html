@@ -27,13 +27,23 @@
         function VerificacaoDeResposta() {
             window.location.href = "pergunta02.html";
         }
-        document.getElementById("correta").addEventListener("click", function() {
-            if(this.id === "correta") {VerificacaoDeResposta();
+        function RepostaErrada() {
+            window.location.href = "pergunta01.html";
+        }
+        document.getElementById("correta").addEventListener("click", function () {
+            if (this.id === "correta") {
+                VerificacaoDeResposta();
             } else {
-                window.location.href = "pergunta01.html"
-                document.getElementById("mensagem").innerHTML = ("Alternativa incorreta, tente  novamente")
-            }
-        });
+            document.getElementById("incorreta").addEventListener("click", RepostaErrada())}
+                 
+                    /*(this.id === "incorreta") {
+                        RepostaErrada();
+                    }*/
+                })
+            window.location.href = "pergunta01.html"
+            document.getElementById("mensagem").innerHTML = ("Alternativa incorreta, tente  novamente")
+        
+        
     </script>
 </body>
 
