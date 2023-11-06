@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="perguntas.css">
     <title>Quizz-Pergunta01</title>
 </head>
+
 <body>
-    
+
     <h1>QUIZZ</h1>
 
-    <main> 
+    <main>
         <p>01. Quem é o Personagem Principal da trama?</p>
-        
+
         <div class="alternativas">
             <button id="errada">Pombinha</button>
             <button id="correta">Eduardo</button>
@@ -22,10 +24,13 @@
     </main>
     <script>
         function VerificacaoDeResposta() {
-            document.getElementById("correta").addEventListener("click"); {
-                window.location.href = "pergunta02.html";
-            }
+            window.location.href = "pergunta02.html";
         }
+        document.getElementById("correta").addEventListener("click", function() {
+            if(this.id === "correta") {VerificacaoDeResposta();
+            }
+        });
     </script>
 </body>
+
 </html>
