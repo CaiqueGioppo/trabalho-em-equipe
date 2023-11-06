@@ -54,7 +54,7 @@ body{
     border: 0px;
     color: white; 
     width: 20%;
-    display: block;
+    display: flex;
     text-shadow: 0.1em 0.1em 0.2em black;
  }
  
