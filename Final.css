@@ -38,11 +38,11 @@ body{
  }
 
  #errada{
-   
+    background-color: red;
  }
 
  #correta{
-   
+    background-color: greenyellow;
  }
 
  button{
@@ -54,6 +54,7 @@ body{
     border: 0px;
     color: white; 
     width: 20%;
+    height: auto;
     text-shadow: 0.1em 0.1em 0.2em black;
  }
  
@@ -80,5 +81,5 @@ body{
     justify-content: center;
     width: 80px;
     height: 80px;
-    border-radius: 10%;
+    border-radius: 05px;
  }

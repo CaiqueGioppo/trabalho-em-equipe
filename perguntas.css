@@ -38,11 +38,11 @@ body{
  }
 
  #errada{
-   
+   background-color: red;
  }
 
  #correta{
-   
+   background-color: greenyellow;
  }
 
  button{
@@ -54,6 +54,7 @@ body{
     border: 0px;
     color: white; 
     width: 20%;
+    height: auto;
     text-shadow: 0.1em 0.1em 0.2em black;
  }
  
@@ -65,7 +66,7 @@ body{
  
  button:active{
    color: rgb(227, 255, 184);
-   background-color: greenyellow;
+   
    animation-duration: 2s;
    animation-delay: 2ms;
  }
