@@ -19,6 +19,15 @@
             <button id="correta">Rita Baiana, mulata sensual e provocante que promove os pagodes no cortiço.</button>
             <button id="errada">Miranda era uma escrava que pensava em ser liberdata.</button>
         </div>
+        <script>
+            function VerificacaoDeResposta() {
+                window.location.href = "pergunta10.html";
+            }
+            document.getElementById("correta").addEventListener("click", function() {
+                if(this.id === "correta") {VerificacaoDeResposta();
+                }
+            });
+        </script>
     </main>
 </body>
 </html>

@@ -19,6 +19,15 @@
             <button id="errada">Ter sua própria casa beira mar</button>
             <button id="errada">Sair do cortiço</button>
         </div>
+        <script>
+            function VerificacaoDeResposta() {
+                window.location.href = "pergunta08.html";
+            }
+            document.getElementById("correta").addEventListener("click", function() {
+                if(this.id === "correta") {VerificacaoDeResposta();
+                }
+            });
+        </script>
     </main>
 </body>
 </html>

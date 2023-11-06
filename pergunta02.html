@@ -20,5 +20,14 @@
             <button id="errada">Barra da Tijuca</button>
         </div>
     </main>
+    <script>
+        function VerificacaoDeResposta() {
+            window.location.href = "pergunta03.html";
+        }
+        document.getElementById("correta").addEventListener("click", function() {
+            if(this.id === "correta") {VerificacaoDeResposta();
+            }
+        });
+    </script>
 </body>
 </html>

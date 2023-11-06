@@ -20,5 +20,14 @@
             <button id="correta">A morte de um jovem</button>
         </div>
     </main>
+    <script>
+        function VerificacaoDeResposta() {
+            window.location.href = "pergunta05.html";
+        }
+        document.getElementById("correta").addEventListener("click", function() {
+            if(this.id === "correta") {VerificacaoDeResposta();
+            }
+        });
+    </script>
 </body>
 </html>

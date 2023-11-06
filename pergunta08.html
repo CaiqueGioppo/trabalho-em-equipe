@@ -20,5 +20,14 @@
             <button id="errada">Que ele tinha um presente.</button>
         </div>
     </main>
+    <script>
+        function VerificacaoDeResposta() {
+            window.location.href = "pergunta09.html";
+        }
+        document.getElementById("correta").addEventListener("click", function() {
+            if(this.id === "correta") {VerificacaoDeResposta();
+            }
+        });
+    </script>
 </body>
 </html>
