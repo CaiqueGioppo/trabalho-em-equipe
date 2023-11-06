@@ -20,5 +20,14 @@
             <button id="errada">Dom Casmurro (Machado de Assis)</button>
         </div>
     </main>
+    <script>
+        function VerificacaoDeResposta() {
+            window.location.href = "final.html";
+        }
+        document.getElementById("correta").addEventListener("click", function() {
+            if(this.id === "correta") {VerificacaoDeResposta();
+            }
+        });
+    </script>
 </body>
 </html>
