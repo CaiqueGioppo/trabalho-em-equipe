@@ -17,8 +17,18 @@
         <label for="senha">Senha:</label>
         <input class="input" type="password" id="senha" name="senha" required><br><br>
         
-        <input class="input" type="submit" value="Cadastrar">
+        <input class="input" type="submit" id="cadastrar" value="Cadastrar">
     </form>
+    <script>
+        function Cadastro() {
+            window.location.href ="index.html";
+        }
+        document.getElementById("cadastro").addEventListener("click", function() {
+            if(this.id === "cadastro") {Cadastro();
+            }
+        });
+
+    </script>
     
     
 </body>
