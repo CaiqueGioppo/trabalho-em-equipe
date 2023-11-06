@@ -23,17 +23,13 @@
         </div>
     </main>
     <script>
-        function VerificacaoDeResposta() {
-            window.location.href = "pergunta02.html";
-        }
-        document.getElementById("correta").addEventListener("click", function () {
-            if (this.id === "correta") {VerificacaoDeResposta();
-            } else {
-                window.location.href = "TelaDeErro01";
+       function VerificacaoDeResposta() {
+                window.location.href = "pergunta02.html";
             }
-
-        })
-
+            document.getElementById("correta").addEventListener("click", function() {
+                if(this.id === "correta") {VerificacaoDeResposta();
+                }
+            });
     </script>
 </body>
 
