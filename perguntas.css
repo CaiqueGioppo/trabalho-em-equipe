@@ -19,6 +19,9 @@ body{
  main{
     margin-top: 5%;
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+
  }
  
  p{
@@ -32,7 +35,7 @@ body{
  }
  
  .alternativas{
-   display: flex;
+   display: block;
    font-size: 3em;
    text-align: justify;
    justify-content: center;
