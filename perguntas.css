@@ -32,9 +32,10 @@ body{
  }
  
  .alternativas{
-   display: block;
+   display: flex;
    font-size: 3em;
    text-align: justify;
+   justify-content: center;
  }
 
  #errada:active{
@@ -53,8 +54,7 @@ body{
     border-radius: 15px;
     border: 0px;
     color: white; 
-    width: 20%;
-    display: flex;
+    width: 20px;
     text-shadow: 0.1em 0.1em 0.2em black;
  }
  
