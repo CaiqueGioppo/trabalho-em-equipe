@@ -57,7 +57,8 @@ body{
     border-radius: 15px;
     border: 0px;
     color: white; 
-    width: 40%;
+    width: 40px;
+    height: 40px;
 
     text-shadow: 0.1em 0.1em 0.2em black;
  }
