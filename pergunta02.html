@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="perguntas.css">
     <title>Quizz-Pergunta02</title>
 </head>
+
 <body>
-    
+
     <h1>QUIZZ</h1>
 
-    <main> 
+    <main>
         <p>02. Onde se passa esta história?</p>
-        
+
         <div class="alternativas">
             <button id="errada">São Paulo</button>
             <button id="errada">Juiz de Fora</button>
@@ -20,22 +22,18 @@
             <button id="errada">Barra da Tijuca</button>
         </div>
     </main>
+
     <script>
         function VerificacaoDeResposta() {
             window.location.href = "pergunta03.html";
         }
-        document.getElementById("correta").addEventListener("click", function() {
-            if(this.id === "correta") {VerificacaoDeResposta();
-            } else {
-            document.getElementById("incorreta").addEventListener("click", RepostaErrada())}
-                 
-                    /*(this.id === "incorreta") {
-                        RepostaErrada();
-                    }*/
-                })
-            window.location.href = "pergunta01.html"
-            document.getElementById("mensagem").innerHTML = ("Alternativa incorreta, tente  novamente")
-        
+        document.getElementById("correta").addEventListener("click", function () {
+            if (this.id === "correta") {
+                VerificacaoDeResposta();
+            }
+        });
     </script>
+
 </body>
+
 </html>
